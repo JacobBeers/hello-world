@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 21px;
@@ -7,8 +12,20 @@ h1 {
 .intro {
     display: flex;
     flex-direction: column;
-     justify-content: center;
+    justify-content: center;
     align-items: center;
     text-align: center;
     margin: 10px;
+}
+
+#welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    
 }
